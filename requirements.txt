@@ -1,3 +1,5 @@
 metaflow
 scikit-learn
 pandas
+matplotlib
+seaborn
