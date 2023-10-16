@@ -1,6 +1,7 @@
-metaflow
 scikit-learn
 pandas
 matplotlib
 seaborn
-mitosheet
+category-encoders
+sweetviz
+fastapi
