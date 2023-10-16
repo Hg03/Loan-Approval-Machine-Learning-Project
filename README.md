@@ -46,5 +46,17 @@ rf_pipeline.fit(x_train,y_train)
 |-----|-----|
 |Random Forest Classifier|0.9617329345097158|
 
+## Save the model and use it
+
+```python
+import joblib
+joblib.dump(rf_pipeline,'model.sav')
+sample = data.head(1) # sample to test
+model.predict(sample) # array([1])
+```
+
+## Build API using FastAPI
+
+
 
 
