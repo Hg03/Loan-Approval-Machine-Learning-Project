@@ -1,5 +1,7 @@
 # Loan-Approval-Machine-Learning-Project
 
+! [banner(assets/20231017_202259_0000.png)
+
 ## Exploratory Data Analysis using sweetviz library
 
 ```python
