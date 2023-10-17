@@ -1,5 +1,15 @@
 # Loan-Approval-Machine-Learning-Project
 
+Hello, Thanks if you are reading right now. This is a **Traditional Machine Learning** project where we are going to predict that **loan** will be approved or not based on following parametric value - 
+
+- cibil_score
+- number of dependents
+- commercial assets value
+- luxury assets value
+- bank assets value
+- self employed or not
+- educated or not
+
 ![banner](https://github.com/Hg03/Loan-Approval-Machine-Learning-Project/blob/main/assets/20231017_202259_0000.png)
 
 ## Exploratory Data Analysis using sweetviz library
