@@ -1,6 +1,6 @@
 # Loan-Approval-Machine-Learning-Project
 
-! [banner] (assets/20231017_202259_0000.png)
+![banner](https://github.com/Hg03/Loan-Approval-Machine-Learning-Project/blob/main/assets/20231017_202259_0000.png)
 
 ## Exploratory Data Analysis using sweetviz library
 
