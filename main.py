@@ -24,7 +24,7 @@ class model_input(BaseModel):
     bank_asset_value: int
 
 with open('model/model.pkl','rb') as f:    
-    model = pickle.load(f)
+    model = pd.read_pickle(f)
 
 @app.get('/')
 async def index():
