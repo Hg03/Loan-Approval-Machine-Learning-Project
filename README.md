@@ -112,5 +112,13 @@ async def predict_loan(inputs : model_input):
 
 `uvicorn api_app:app` to run the api and go to `localhost:8000/docs`
 
+## Build Streamlit application to serve the model 
+
+### View the `app.py` file to understand the code of application.
+
+### Application is deployed [here](https://loan-app.streamlit.app/)
+
+
+[Screencast from 17-10-23 11:19:45 PM IST.webm](https://github.com/Hg03/Loan-Approval-Machine-Learning-Project/assets/69637720/7974b65b-0dd6-446c-8400-0bdd8ea9024a)
 
 
