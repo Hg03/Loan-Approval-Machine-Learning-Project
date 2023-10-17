@@ -4,7 +4,7 @@ matplotlib
 seaborn
 category-encoders
 sweetviz
-fastapi
+fastapi[all]
 uvicorn
 streamlit
 pickle5
