@@ -104,8 +104,6 @@ async def predict_loan(inputs : model_input):
     to_feed["commercial_assets_value"] = [input_dict["commercial_assets_value"]]
     to_feed["luxury_assets_value"] = [input_dict["luxury_assets_value"]]
     to_feed["bank_asset_value"] = [input_dict["bank_asset_value"]]
-    
-    preds = model.predict(to_feed)
     print(preds)
     return {'prediction':preds[0]}
 ```
