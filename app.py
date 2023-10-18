@@ -22,7 +22,10 @@ def make_form(cols : List[str]):
         if submitted:
             model = pickle.load(open("model/model.pkl",'rb'))
             preds = model.predict(input)
-            st.write(preds[0])
+            if preds[0] == 0:
+                st.error("Sorry, your Loan is not approved according to the data you provided",icon="🚨")
+            else:
+                st.success("According to the data, your Loan is approved",icon="✅")
 
 def main():
     st.title(":green[Loan] Approval Prediction :blue[Machine Learning Project]")
