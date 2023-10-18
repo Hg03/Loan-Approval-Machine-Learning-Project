@@ -25,7 +25,7 @@ report = sweetviz.analyze([train,"Train"],target_feat='loan_status_encoded')
 report.show_html("Report.html")
 ```
 
-### Output
+### Demo
 
 https://github.com/Hg03/Loan-Approval-Machine-Learning-Project/assets/69637720/e8f73208-ca35-4c57-b606-c631e1e8a50d
 
@@ -112,12 +112,18 @@ async def predict_loan(inputs : model_input):
 
 `uvicorn api_app:app` to run the api and go to `localhost:8000/docs`
 
+### Demo
+
+[Screencast from 18-10-23 10:55:07 AM IST.webm](https://github.com/Hg03/Loan-Approval-Machine-Learning-Project/assets/69637720/77990966-c802-4826-aeb0-43f099328046)
+
+
 ## Build Streamlit application to serve the model 
 
 ### View the `app.py` file to understand the code of application.
 
 ### Application is deployed [here](https://loan-app.streamlit.app/)
 
+### Demo
 
 [Screencast from 17-10-23 11:19:45 PM IST.webm](https://github.com/Hg03/Loan-Approval-Machine-Learning-Project/assets/69637720/7974b65b-0dd6-446c-8400-0bdd8ea9024a)
 
